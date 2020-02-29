@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap');
+
+body {
+  background-color: #fcf8e8;
+}
+
+.title-wrapper {
+  font-family: Amatic SC;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rocket-img-wrapper {
+  float: right;
+}
+
+.form-wrapper{
+  font-family: Amatic SC;
+  font-size: 20px;
+  margin-left: 50px;
+}
