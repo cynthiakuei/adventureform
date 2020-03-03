@@ -14,19 +14,26 @@ body {
   font-family: Amatic SC;
 }
 #content-wrapper {
-  font-size: 20px;
+  font-size: 30px;
 }
 #form-wrapper {
   display: flex;
   justify-content: center;
 }
 .title {
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
 }
 .rocket-img {
 
 }
-.sign-up {
-  margin-top: 80px;
+#pwd {
+  margin-left: 10px;
+}
+.astronaut {
+  height: 250px;
+  width: auto;
+  margin-left: 100px;
+}
+
 }
