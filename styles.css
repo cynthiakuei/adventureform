@@ -1,22 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap');
+/* justify-content - main axis
+align-item - cross axis */
+/*
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 2px red solid;
+} */
 
 body {
   background-color: #fcf8e8;
-}
-
-.title-wrapper {
   font-family: Amatic SC;
-  font-size: 40px;
-  display: flex;
-  flex-direction: column;
 }
-
-.rocket-img-wrapper {
-  float: right;
-}
-
-.form-wrapper{
-  font-family: Amatic SC;
+#content-wrapper {
   font-size: 20px;
-  margin-left: 50px;
+}
+#form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: 40px;
+  text-align: center;
+}
+.rocket-img {
+
+}
+.sign-up {
+  margin-top: 80px;
 }
